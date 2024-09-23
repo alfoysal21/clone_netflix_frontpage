@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1.logo{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+.main {
+    background-image: url(Assets/Images/bg.jpg);
+    height: 644px;
+    position: relative;
+    justify-content: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+
+
+}
+
+.box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 88px;
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+
+}
+
+.sign {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 7px 14px;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+:hover.sign {
+    background-color: rgb(190, 17, 17);
+}
+
+.hero {
+    height: calc(100% - 88px);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.hero> :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.start {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 24px;
+
+    font-family: sans-serif;
+    border-radius: 0.25rem;
+    border: none;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+:hover.start {
+    background-color: rgb(190, 17, 17);
+}
+
+.herobutton {
+    display: flex;
+    gap: 8px;
+}
+
+.main input {
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(244, 255, 255);
+    border-radius: 0.25rem;
+    padding: 17px 100px 15px 18px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+.seperation {
+    background-color: rgb(43, 42, 42);
+    height: 7px;
+    width: 100%;
+
+}
+
+.first {
+    display: flex;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding-bottom: 67px;
+    align-items: center;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
+    
+
+.tvtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 58px;
+    right: 0px;
+    width: 30.25vw;
+}
+
+.secimgrl img {
+    width: 35vw;
+    padding-left: 0px;
+    z-index: 10;
+
+}
+
+.tvtexto {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.375rem;
+    text-align: left;
+    width: 395px;
+}
+
+.enjoy {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 18px;
+}
+
+.smart {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.offline {
+    width: 41vw;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 18px;
+}
+
+.easy {
+    width: 30vw;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.crt {
+    width: 40vw;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 18px;
+
+}
+
+.kids {
+    width: 35vw;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.wtch {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 18px;
+}
+
+.unli {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+
+.questions {
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    max-width: 72vw;
+    margin: 10px auto;
+    background-color: #2d2d2d;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+
+}
+
+.questions:hover{
+    background-color:#414141;
+}
+
+h2 {
+    color: white;
+    font-size: 48PX;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+.ready{
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 44vw;
+    margin: 53px auto;
+    margin-bottom: 0px;
+}
+
+
+.faq svg{
+    filter: invert(1);
+}
+
+.entry{
+    max-width: 39vw;
+    margin: 18px auto;
+    margin-bottom: 41px;
+}
+@media screen and (max-width: 1300px){
+    .entry{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+         
+ }
+
+.email2{
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(244, 255, 255);
+    border-radius: 0.25rem;
+    padding: 17px 100px 15px 18px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
+
+
+.contact{
+    max-width: 76vw;
+    margin: auto;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 76vw;
+    margin: auto;
+}
+@media screen and (max-width: 1300px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 76vw;
+        margin: auto;
+        
+}
+}
+  
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a{
+    color: #b3b0ad;
+    font-size: 14px;
+}
+select{
+    padding: 6px;
+    background-color: black;
+    color:  #ffffff;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+option{
+    padding-right: 10px;
+}
+.bd{
+    color: #b3b0ad;
+    font-size: 14px;
+}
+.ea3diy33>select {
+    padding-right: 2.25rem;
+    line-height: 1.25rem;
+}
